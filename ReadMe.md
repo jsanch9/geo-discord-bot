@@ -29,7 +29,11 @@ geo!leave
 
 Input Discord sercret app token in .env file as TOKEN
 
+node 12.0.0 or higher needed
+
 npm install
+
+npm i ffmpeg-static
 
 node index.js
 
