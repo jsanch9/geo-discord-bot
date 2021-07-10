@@ -1,0 +1,27 @@
+//you can get the token from https://discord.com/developers/applications
+TOKEN="{your shit here}"
+
+
+//IMPORTANT: if you want use a word as a prefix like: '!soundboard' make sure you put a space after the word.
+PREFIX="geo!"
+
+
+//ACTIVITY
+
+//the TYPE can be Playing,Watching,Listening.The game is just what comes after it. For example 'Watching Myself'
+TYPE=''
+GAME=''
+
+
+
+//OTHER CUSTOMIZATIONS
+
+//What should the bot write if the user is not in a voice channel, you can leave it as it is.
+NOVC="You gotta be in a voice channel fuckin stupid bitch"
+
+//the command the bot lists the availabe sounds, you can leave it as it is.
+LIST="list"
+
+
+//the folder where the mp3 sound are located, you leave it as it is.
+FOLDER='./sounds/'
