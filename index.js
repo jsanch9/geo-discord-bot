@@ -39,9 +39,6 @@ bot.on("message", message => {
         case process.env.LIST:
             bot.commands.get("list").execute(message);
             break;
-        case "random":
-            bot.commands.get("playRandom").execute(message,VC.botOnVC);
-            break;
         case "leave":
             bot.commands.get("leave").execute(message,stay,VC);
             break;
